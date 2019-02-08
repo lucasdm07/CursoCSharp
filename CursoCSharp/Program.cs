@@ -6,6 +6,8 @@ using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.API;
 
 namespace CursoCSharp
 {
@@ -72,6 +74,17 @@ namespace CursoCSharp
                 { "Delegate com Funcoes Anonimas - Metodos e Funcoes", DelegateFunAnonima.Executar},
                 { "Delegate como Parametros - Metodos e Funcoes", DelegatesComoParametros.Executar},
                 { "Metodos de Extensao - Metodos e Funcoes", MetodosDeExtensao.Executar},
+                // Metodos e Funcoes
+                { "Primeira Excecao - Metodos e Funcoes", PrimeiraExcecao.Executar},
+                { "Excecoes Personalizadas - Metodos e Funcoes", ExcecoesPersonalizadas.Executar},
+                // API
+                { "Primeiro Arquivo - API", PrimeiroArquivo.Executar},
+                { "Lendo Arquivos - API", LendoArquivos.Executar},
+                { "Exemplo FileInfo - API", ExemploFileInfo.Executar},
+                { "Diretorios - API", Diretorios.Executar},
+                { "Exemplo Directory Info - API", ExemploDirectoryInfo.Executar},
+                { "Exemplo Path - API", ExemploPath.Executar},
+
             });
 
             central.SelecionarEExecutar();
