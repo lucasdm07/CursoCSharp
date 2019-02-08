@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp
 {
@@ -65,6 +66,12 @@ namespace CursoCSharp
                 { "Polimorfismo - OO", Polimorfismo.Executar},
                 { "Interface - OO", Interface.Executar},
                 { "Sealed - OO", Sealed.Executar},
+                // Metodos e Funcoes
+                { "Exemplo Lambda - Metodos e Funcoes", ExemploLambda.Executar},
+                { "Lambdas Delegate - Metodos e Funcoes", LambdasDelegate.Executar},
+                { "Delegate com Funcoes Anonimas - Metodos e Funcoes", DelegateFunAnonima.Executar},
+                { "Delegate como Parametros - Metodos e Funcoes", DelegatesComoParametros.Executar},
+                { "Metodos de Extensao - Metodos e Funcoes", MetodosDeExtensao.Executar},
             });
 
             central.SelecionarEExecutar();
